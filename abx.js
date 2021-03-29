@@ -46,7 +46,7 @@ function start_experiment(){
     var method0_list = wav_dir + "set" + set_num + "/world.list";
     var method1_list = wav_dir + "set" + set_num + "/nsf.list";
     var method2_list = wav_dir + "set" + set_num + "/qppwg.list";
-    var method3_list = wav_dir + "set" + set_num + "/usfg.list";
+    var method3_list = wav_dir + "set" + set_num + "/usfgan.list";
     method0 = loadText(method0_list);
     method1 = loadText(method1_list);
     method2 = loadText(method2_list);
